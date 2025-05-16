@@ -1,0 +1,83 @@
+2025-05-16 14:12:32,329 Worker rq:worker:da2f12d96cf74168afc009872a3a2fed started with PID 72319, version 2.3.2
+2025-05-16 14:12:32,330 Subscribing to channel rq:pubsub:da2f12d96cf74168afc009872a3a2fed
+2025-05-16 14:12:32,331 *** Listening on Users-shahin-frappe-demo:short, Users-shahin-frappe-demo:default, Users-shahin-frappe-demo:long...
+2025-05-16 14:12:32,331 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 14:12:32,332 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 14:12:32,334 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 14:13:15,966 Worker da2f12d96cf74168afc009872a3a2fed [PID 72319]: warm shut down requested
+2025-05-16 14:13:16,004 Unsubscribing from channel rq:pubsub:da2f12d96cf74168afc009872a3a2fed
+2025-05-16 14:13:21,348 Worker rq:worker:a20bba602c554347ab24bdf08f3e8aad started with PID 73934, version 2.3.2
+2025-05-16 14:13:21,348 Subscribing to channel rq:pubsub:a20bba602c554347ab24bdf08f3e8aad
+2025-05-16 14:13:21,349 *** Listening on Users-shahin-frappe-demo:short, Users-shahin-frappe-demo:default, Users-shahin-frappe-demo:long...
+2025-05-16 14:13:21,349 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 14:13:21,351 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 14:13:21,351 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 14:18:00,935 Worker a20bba602c554347ab24bdf08f3e8aad [PID 73934]: warm shut down requested
+2025-05-16 14:18:00,948 Unsubscribing from channel rq:pubsub:a20bba602c554347ab24bdf08f3e8aad
+2025-05-16 14:24:38,631 Worker rq:worker:eccf7f8a126b4a7bac6c778e09342dcf started with PID 97718, version 2.3.2
+2025-05-16 14:24:38,631 Subscribing to channel rq:pubsub:eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 14:24:38,632 *** Listening on Users-shahin-frappe-demo:short, Users-shahin-frappe-demo:default, Users-shahin-frappe-demo:long...
+2025-05-16 14:24:38,632 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 14:24:38,634 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 14:24:38,635 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 14:38:08,754 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 14:38:08,768 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 14:38:08,771 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 14:51:38,919 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 14:51:38,924 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 14:51:38,925 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 15:05:09,052 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 15:05:09,057 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 15:05:09,059 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 15:31:28,781 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 15:31:28,797 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 15:31:28,798 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 15:47:39,753 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 15:47:39,765 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 15:47:39,767 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 16:01:09,875 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 16:01:09,880 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 16:01:09,883 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 16:14:40,019 Cleaning registries for queue: Users-shahin-frappe-demo:short
+2025-05-16 16:14:40,028 Cleaning registries for queue: Users-shahin-frappe-demo:default
+2025-05-16 16:14:40,031 Cleaning registries for queue: Users-shahin-frappe-demo:long
+2025-05-16 16:15:00,862 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User shahintyahya@gmail.com>, 'ignore_mandatory': T..., method='frappe.core.doctype.user.user.create_contact', site='library.localhost', user='Administrator') (library.localhost||b096f0f5-1262-4266-9e0e-5edf2f10a010)
+2025-05-16 16:15:01,518 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: doctype=User shahintyahya@gmail.com>, 'ignore_mandatory': T..., method='frappe.core.doctype.user.user.create_contact', site='library.localhost', user='Administrator') job in 0:00:00.381624s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:15:01,518 Users-shahin-frappe-demo:default: Job OK (library.localhost||b096f0f5-1262-4266-9e0e-5edf2f10a010)
+2025-05-16 16:15:01,518 Result is kept for 600 seconds
+2025-05-16 16:15:01,525 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'shahintyahya@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='library.localhost', user='Administrator') (library.localhost||0c57ee4f-6688-4bee-a389-cb66aba01e7e)
+2025-05-16 16:15:01,747 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'shahintyahya@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='library.localhost', user='Administrator') job in 0:00:00.216049s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:15:01,747 Users-shahin-frappe-demo:default: Job OK (library.localhost||0c57ee4f-6688-4bee-a389-cb66aba01e7e)
+2025-05-16 16:15:01,747 Result is kept for 600 seconds
+2025-05-16 16:18:01,158 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'pg..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggi8dstie)
+2025-05-16 16:18:01,400 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'pg..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.229172s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:01,401 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggi8dstie)
+2025-05-16 16:18:01,401 Result is kept for 600 seconds
+2025-05-16 16:18:01,404 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'pggnj0cdsm'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggnj0cdsm)
+2025-05-16 16:18:01,528 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'pggnj0cdsm'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.118825s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:01,528 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggnj0cdsm)
+2025-05-16 16:18:01,528 Result is kept for 600 seconds
+2025-05-16 16:18:01,531 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggdvhr2v9)
+2025-05-16 16:18:01,664 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.127895s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:01,664 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggdvhr2v9)
+2025-05-16 16:18:01,664 Result is kept for 600 seconds
+2025-05-16 16:18:01,667 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggt2jsbnq)
+2025-05-16 16:18:01,832 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.159324s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:01,833 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggt2jsbnq)
+2025-05-16 16:18:01,833 Result is kept for 600 seconds
+2025-05-16 16:18:01,836 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggrhao54h)
+2025-05-16 16:18:01,970 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.129153s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:01,971 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggrhao54h)
+2025-05-16 16:18:01,971 Result is kept for 600 seconds
+2025-05-16 16:18:01,974 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggdcnjtoj)
+2025-05-16 16:18:02,114 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.135705s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:02,115 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggdcnjtoj)
+2025-05-16 16:18:02,115 Result is kept for 600 seconds
+2025-05-16 16:18:02,118 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'pggv3ta712'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pggv3ta712)
+2025-05-16 16:18:02,310 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'pggv3ta712'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.187523s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:02,310 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pggv3ta712)
+2025-05-16 16:18:02,311 Result is kept for 600 seconds
+2025-05-16 16:18:02,314 Users-shahin-frappe-demo:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') (library.localhost||scheduled_job||pgg9nap5ch)
+2025-05-16 16:18:02,540 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='library.localhost', user='Administrator') job in 0:00:00.221385s on worker eccf7f8a126b4a7bac6c778e09342dcf
+2025-05-16 16:18:02,541 Users-shahin-frappe-demo:default: Job OK (library.localhost||scheduled_job||pgg9nap5ch)
+2025-05-16 16:18:02,541 Result is kept for 600 seconds

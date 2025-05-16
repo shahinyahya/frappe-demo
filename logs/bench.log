@@ -1,0 +1,49 @@
+2025-05-16 10:47:07,680 DEBUG cd frappe-demo && python3 -m venv env
+2025-05-16 10:47:09,997 DEBUG cd frappe-demo && /Users/shahin/frappe-demo/env/bin/python -m pip install --quiet --upgrade pip
+2025-05-16 10:47:10,952 DEBUG cd frappe-demo && /Users/shahin/frappe-demo/env/bin/python -m pip install --quiet wheel
+2025-05-16 10:47:11,406 LOG Getting frappe
+2025-05-16 10:47:11,406 DEBUG cd frappe-demo/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-05-16 10:47:14,533 LOG Installing frappe
+2025-05-16 10:47:14,534 DEBUG cd /Users/shahin/frappe-demo && /Users/shahin/frappe-demo/env/bin/python -m pip install --quiet --upgrade -e /Users/shahin/frappe-demo/apps/frappe 
+2025-05-16 10:47:56,890 DEBUG cd /Users/shahin/frappe-demo/apps/frappe && yarn install --check-files
+2025-05-16 10:48:12,718 DEBUG cd frappe-demo && bench build
+2025-05-16 10:48:12,899 INFO /Users/shahin/Library/Python/3.9/bin/bench build
+2025-05-16 10:48:25,277 LOG setting up backups
+2025-05-16 10:48:25,348 LOG backups were set up
+2025-05-16 10:48:25,348 INFO Bench frappe-demo initialized
+2025-05-16 10:48:25,532 INFO A newer version of bench is available: 5.24.1 → 5.25.1
+2025-05-16 12:00:01,259 INFO /Users/shahin/Library/Python/3.9/bin/bench --verbose --site all backup
+2025-05-16 14:12:30,762 INFO /opt/homebrew/bin/bench start
+2025-05-16 14:12:31,584 INFO /opt/homebrew/bin/bench schedule
+2025-05-16 14:12:31,587 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-05-16 14:12:31,667 INFO /opt/homebrew/bin/bench watch
+2025-05-16 14:12:31,675 INFO /opt/homebrew/bin/bench worker
+2025-05-16 14:13:20,597 INFO /opt/homebrew/bin/bench start
+2025-05-16 14:13:20,983 INFO /opt/homebrew/bin/bench schedule
+2025-05-16 14:13:20,984 INFO /opt/homebrew/bin/bench watch
+2025-05-16 14:13:20,990 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-05-16 14:13:20,991 INFO /opt/homebrew/bin/bench worker
+2025-05-16 14:16:09,039 INFO /Users/shahin/Library/Python/3.9/bin/bench find .
+2025-05-16 14:16:09,232 INFO A newer version of bench is available: 5.24.1 → 5.25.1
+2025-05-16 14:16:49,400 INFO /Users/shahin/Library/Python/3.9/bin/bench new-app library_management
+2025-05-16 14:16:49,405 LOG creating new app library_management
+2025-05-16 14:17:39,732 LOG Installing library_management
+2025-05-16 14:17:39,735 DEBUG cd /Users/shahin/frappe-demo && /Users/shahin/frappe-demo/env/bin/python -m pip install --quiet --upgrade -e /Users/shahin/frappe-demo/apps/library_management 
+2025-05-16 14:17:41,130 DEBUG bench build --app library_management
+2025-05-16 14:17:41,278 INFO /Users/shahin/Library/Python/3.9/bin/bench build --app library_management
+2025-05-16 14:17:43,245 INFO A newer version of bench is available: 5.24.1 → 5.25.1
+2025-05-16 14:24:37,930 INFO /opt/homebrew/bin/bench start
+2025-05-16 14:24:38,261 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-05-16 14:24:38,261 INFO /opt/homebrew/bin/bench schedule
+2025-05-16 14:24:38,270 INFO /opt/homebrew/bin/bench worker
+2025-05-16 14:24:38,273 INFO /opt/homebrew/bin/bench watch
+2025-05-16 14:27:46,112 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost
+2025-05-16 14:30:59,389 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost
+2025-05-16 14:31:07,640 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost --force
+2025-05-16 15:59:10,183 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost
+2025-05-16 16:01:36,842 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost
+2025-05-16 16:01:42,553 INFO /Users/shahin/Library/Python/3.9/bin/bench new-site library.localhost --force
+2025-05-16 16:08:57,860 INFO /opt/homebrew/bin/bench --site library.localhost install-app library_management
+2025-05-16 16:09:18,957 INFO /opt/homebrew/bin/bench --site library.localhost list-apps
+2025-05-16 16:12:35,913 INFO /opt/homebrew/bin/bench drop-site library.localhost
+2025-05-16 16:13:15,803 INFO /opt/homebrew/bin/bench new-site library.localhost
